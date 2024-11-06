@@ -1,0 +1,22 @@
+GET http://localhost:3001/recipes
+
+### 
+POST http://localhost:3001/recipes
+Content-Type: application/json
+
+{
+    "name":"Steak",
+    "ingredients":["beef","salt","pepper"],
+    "instructions":"cook at hight heat and baste it ",
+    "imageURL": 
+    "https://www.seriouseats.com/thmb/WzQz05gt5witRGeOYKTcTqfe1gs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/butter-basted-pan-seared-steaks-recipe-hero-06-03b1131c58524be2bd6c9851a2fbdbc3.jpg",
+    "cookingTime":20,
+    "userOwner":"6523a608bd41b518b9b86907"
+}
+
+###
+
+DELETE http://localhost:3001/todos/delete/65228c60d448306a184decdb
+
+### 
+PUT http://localhost:3001/recipes/savedRecipes/ids/652393eb3e41808a37dd5745
